@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    text-align:left;
+    font-size: 20px;
+    color: rgb(10, 12, 126);
+    width: 100%;
+    position:static;
+    z-index: 100;
+}
+
+footer {
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    color: gray;
+    position: static;
+    width: 100%;
+    z-index: 100; 
+}
+
+header, main, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section{
+    width: 50%;
+    float: left;
+}
+
+div {
+    background-color: #ffffff;
+    width: 450px;
+    height: 450px;
+}
+
+.div2 {
+    position: absolute;
+    top: 1750px;
+    left: 200px;
+}
+
+.div3 {
+    position: absolute;
+    top: 1750px;
+    left: 700px;
+
+}
+
+.div4 {
+    position: absolute;
+    top: 2300px;
+    left: 200px;
+
+}
+
+.div5 {
+    position: absolute;
+    top: 2300px;
+    left: 700px;
+    width: 150px;
+    height: 450px;
+}
+
+.div6 {
+    position: absolute;
+    top: 2300px;
+    left: 850px;
+    width: 150px;
+    height: 450px;
+}
+
+.div7 {
+    position: absolute;
+    top: 2300px;
+    left: 1000px;
+    width: 150px;
+    height: 450px;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    color: grey;
+    text-decoration: none;  
+    float: right;
+}
+
+.nav-enlace:hover{
+    background: #3044BC;
+    color: white;
+}
+
+.navpos {
+    display:inline-block;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    color: grey;
+    text-decoration: none;  
+    float: center;
+    width: 200px;
+}
+
+.navpos:hover{
+    background: #3044BC;
+    color: white;
+}
+
+.texpos {
+    display:inline-block;
+    background: #ffffff;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+    float: center;
+    width: 200px;
+}
+
+.foto1 { padding: 10px; 
+         margin: 10px; 
+         float: right; 
+         width: 450px;
+         height: 450px; 
+        }
+
+.foto2 {
+         padding: 10px; 
+         margin: 10px; 
+         float: center; 
+         width: 1000px;
+         height: 250px; 
+}
+
+.foto3 { padding: 10px; 
+    margin: 10px; 
+    float: left; 
+    width: 400px;
+    height: 400px; 
+   }
+
+.texto1{
+    text-align: center;
+}
+
+.texto2 {
+    text-indent: 150px;
+}
+
+.tit1 {
+    font-size: 50px;
+}
+
+.tit2 {
+    font-size: 35px;
+}
+
+.form{
+    margin-left: 200px; 
+    width: 300px;   
+}
+
+.forlis{
+    display: inline-block;
+}
+
+
+.izq {
+    float: left;
+}
+.cen{
+    float:center;
+}
+.der {
+    float: right;
+}
+
+
+
